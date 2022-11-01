@@ -1,0 +1,135 @@
+.button1 {
+	background-color: #053826;
+    	border: none;
+    	border-radius: 6px;
+    	font-size: 16px;
+    	line-height: 35px;
+    	padding: 0 10px;
+	width: auto;
+	
+	}
+    
+.button2 {
+   	cursor: pointer;
+    	display: inline-block;
+    	text-decoration: none;
+    	white-space: nowrap;
+    	}
+    
+.button3 {
+    	color: #fff;
+	}
+
+button:hover {
+  	background: #539064;
+}
+.a {
+	text-align:center;
+	}
+
+#test {
+  	display: inline;
+ 	margin: 0 1em 0 1em;
+  	width: 30%;
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	}
+
+#b {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	background: #eee;
+	margin: 10px auto;
+	position: relative;
+    	text-align:center;
+	}
+
+#c {
+	justify-content: center;
+	height: 30%;
+	width: 30%;
+	margin-left: 20%;
+	font-size: 20px;
+	padding-top: 50px;
+	}
+	
+#d {
+	justify-content: center;
+	height: 30%;
+	width: 30%;
+	margin-right: 20%;
+	font-size: 20px;
+	padding-top: 50px;
+	}
+	
+.inputs {
+	font-size: 16px;
+	}
+	
+nav {
+	height: 70px;
+	background: #053826;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+  	font-family: 'Brush Script MT', cursive;
+  	color: rgb(255, 255, 255);
+
+    
+}
+
+nav a {
+  	text-decoration: none;
+  	color: rgb(255, 255, 255);
+  	padding: 0 1.5rem;
+}
+
+nav a:hover {
+  	color: #539064;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+	max-width: 1500px;
+	margin: auto;
+}
+
+.R {
+	margin: 8px -16px;
+}
+
+.R,
+.R > .C {
+  	padding: 8px;
+}
+
+.C {
+	float: left;
+	padding: 8px;
+	width: 32%;
+}
+
+.R:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content{
+	padding: 10px;
+}
+
